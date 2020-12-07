@@ -1,0 +1,16 @@
+{
+  "name": "testwebsite",
+  "version": "1.0.0",
+  "description": "A test site",
+  "main": "main.js",
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "freeserver": "^0.1.1",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Schleeter <nickschleeter@protonmail.com> (https://github.com/nickschleeter/SampleSite)",
+  "license": "GPL-3.0"
+}

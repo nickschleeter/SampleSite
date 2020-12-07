@@ -1,0 +1,18 @@
+?#
+//Project variables
+context.websiteName = 'OpenServer example site';
+library('lib/simpleweb.js');
+''
+#?
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Test website -- ?#context.page.title#?</title>
+?#include('Content/Bootstrap/include.html')#?
+</head>
+<body style="margin-top:90px;">
+?#include('Content/Bootstrap/menu.html')#?
+
+?#context.renderBody()#?
+</body>
+</html>
